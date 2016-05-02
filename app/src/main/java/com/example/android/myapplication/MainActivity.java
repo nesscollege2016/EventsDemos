@@ -65,10 +65,7 @@ public class MainActivity extends AppCompatActivity implements SeekBar.OnSeekBar
             etGreen.setText(sbGreen.getProgress() + "");
             etBlue.setText(sbBlue.getProgress() + "");
             fromCode = false;
-
         }
-
-
     }
 
     public void onStartTrackingTouch(SeekBar seekBar) {
